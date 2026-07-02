@@ -60,12 +60,12 @@ Você vai precisar do **Go** (versão 1.23 ou superior) instalado na sua máquin
 O projeto utiliza SQL Server. Na raiz do backend em Go, crie um arquivo `.env` (você pode copiar do `.env.example`) e configure suas credenciais:
 
 ```env
-DB_HOST=localhost
-DB_PORT=1433
-DB_USER=sa
-DB_PASSWORD=SuaSenhaAqui
-DB_NAME=GestHome
-SERVER_PORT=8080
+DB_HOST=
+DB_PORT=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+SERVER_PORT=
 ```
 
 ### 3. Rodando o Backend (API)
